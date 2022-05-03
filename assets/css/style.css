@@ -1,0 +1,37 @@
+:root{
+    --cor-primary: hsl(170, 100%, 26%);
+    --cor-secondary: hsl(210, 11%, 15%);
+    --cor-paragraph: hsl(210, 9%, 31%);
+}
+body{
+    font-family: 'DM Sans';
+    text-align: center;
+    background-color: #DCE9E2;
+}
+main{
+    width: 23.4375rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+h4{
+    font-size: 0.875rem;
+    color: var(--cor-primary);
+}
+h1{
+    font-size: 2.125rem;
+    line-height: 130%;
+    color: var(--cor-secondary);
+}
+p{
+    font-size: 1.125rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--cor-paragraph);
+}
+button{
+    background: var(--cor-primary);
+    
+    border: none;
+    border-radius: 2.5rem;
+
+}
